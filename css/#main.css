@@ -5,158 +5,116 @@
     
     padding: 0%;
     margin: 0%;
+    background-image: url(assets/fondodepagina.jpg);
+    background-size: cover;
     }
     
     
     /*GRID*/  /*0.5fr en el utltimo fr de grid-template-rows*/
-    /*200px para cambiar por el primer 1fr*/
-    .gtid.container{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "menu           menu            menu"
-        "principal      principal       princial"
-        "base           base            base"
-        ;
-    }
-    .menu{
-        grid-area: menu;
-    }
-    .cuerpo{
-        grid-area: principal;
-    }
-    .base{
-        grid-area: base;
-    }
-    
-    
-    
-    /*background color #AA0AA7*/
-    
-    /*Header*/
-    .barradenavegacion{
-        background-color: #8a2be2;
-        display: flex;
-        height: 4em;
-        
-        justify-content: center;
-        align-items: flex-start;
-    
-        position: fixed;
-        top: 0%;
-        width: 100%;
-    
-    }
+/*200px para cambiar por el primer 1fr*/
+.grid.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "menu           menu            menu"
+    "principal      principal       principal"
+    "base           base            base"
+    ;
+}
+.menu{
+    grid-area: menu;
+}
+.cuerpo{
+    grid-area: principal;
+}
+.base{
+    grid-area: base;
+}
 
-    /*.border-tomrrow{
-        box-shadow: none;
-    }*/
-    
-    
-    /*background: whitesmoke;*/
-    
-    /*ul*/
-    .menulist{
-        display: flex;
-        width: 500px;
-        justify-content: space-around;
-        
-    
-    }
-    .menulist li{
-        list-style: none;
-    }
-    /*color: white;*/
-    .menulist li a{
-        text-decoration: none;
-        
-        
-    }
-    
-    /*Main*/
-    .primercontenedor{
-       /*background-image: url(../assets/opengraph.webp);*/
-       background-position: center;
-       width: 100%;
-       height: 45vh;
-    }
-    
-    /*texto Main*/
-    .primercontenedor h2{
-        font-size: 8em;
-        position: relative;
-        top: 55%;
-        color: white;
-    }
-    
-    .title-promo p {
-        font-style: italic;
-    }
-    
-    .logo-nos-img{
-        max-width: 20%;
-        max-height: 20%;
-        
-    }
-    
-    
-    
-    h5{
-        padding: 30px;
-        text-align: center;
-        font-size: 1.5em;
-    }
-    
-    /*cuerpo Main*/
-    .row{
-        display: flex;
-        text-align-last: center;
-    }
-    
-    .card-img{
-        width: 400px;
-        height: 300px;
-        padding: 5px;
-        }
-    
-    .card-img{
-        width: 100%;
-    }
-    
-    .mapa-img{
-        align-items: center;
-        width: 50%;
-        height: 50%;
-    }
-    
-    
-    /*footer*/
-    .pie{
-        background-color: #8a2be2;
-        height: 4em;
-        text-align: center;
-        color: white;
-    }
-    
-    .logos-redes{
-        display: flex;
-        text-align-last: center;
-    }
-    
-    .logos-redes{
-        width: 150px;
-    }
-    
-    /*copy*/
-    .copyright{
-        text-align: center;
-        font-size: 1em;
-    }
+.logo-img{
+    width: 40%;
+    height: 60%;
+}
 
-    .fa-brands{
-        font-size: 8rem;
-    }
+.img{
+    width: 80%;
+    height: 80%;
+}
+
+/*background color #AA0AA7*/
+
+/*Header*/
+
+/*background: whitesmoke;*/
+
+/*Main*/
+.primercontenedor{
+   background-position: center;
+   width: 100%;
+   height: 45vh;
+}
+
+/*texto Main*/
+.primercontenedor h2{
+    font-size: 8em;
+    position: relative;
+    top: 55%;
+    color: white;
+}
+
+.title-promo p {
+    font-style: italic;
+}
+
+.logo-nos-img{
+    max-width: 20%;
+    max-height: 20%;
+    
+}
+
+h5{
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*cuerpo Main*/
+.row{
+    display: flex;
+    text-align-last: center;
+}
+
+.informacion{
+    align-content:center;
+    font-size: 8em;
+}
+/*footer*/
+.pie{
+    background-color: #8a2be2;
+    height: 4em;
+    text-align: center;
+    color:white
+}
+
+.logos-redes{
+    display: flex;
+    text-align-last: center;
+    width: 150px;
+}
+
+.fa-brands{
+    font-size: 2rem;
+}
+
+.fa-regular{
+    font-size: 2rem;
+}
+/*copy*/
+.copyright{
+    text-align: center;
+    font-size: 1em;
+}
 
     /*tablet*/
     @media (max-width 768px){
