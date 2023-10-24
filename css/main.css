@@ -1,14 +1,30 @@
 /*fonts*/
 *{
     font-family:'Noto Sans', sans-serif;
-    font-size: 16px;
-    
+    font-size: 16px;    
     padding: 0%;
-    margin: 0%;
-    background-image: url(assets/fondodepagina.jpg);
-    background-size: cover;
+    margin: 0%;    
+    
     }
     
+body{
+    background-image: url(/assets/fondodepagina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+.navbar{
+    padding: 0px;
+    color:white;
+}
+
+#barra{
+    background-color: #8a2be2;
+    padding:0px;
+    color:white;
+}
+
+
     
     /*GRID*/  /*0.5fr en el utltimo fr de grid-template-rows*/
 /*200px para cambiar por el primer 1fr*/
@@ -117,7 +133,7 @@ h5{
 }
 
     /*tablet*/
-    @media (max-width 768px){
+    @media (max-width: 768px){
        
         .gtid.container{
             background-color: #8a2be2;
@@ -144,7 +160,7 @@ h5{
 
     
     /*mobile*/
-    @media (max-width 576px){
+    @media (max-width: 576px){
 
     }
 
