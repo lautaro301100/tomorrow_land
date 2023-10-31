@@ -17,6 +17,12 @@
   grid-area: base;
 }
 
+.body body {
+  background-image: url(/assets/fondodepagina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .menu #barra {
   background-color: #8a2be2;
   padding: 0px;
