@@ -1,0 +1,19 @@
+.grid.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "menu           menu            menu"
+    "principal      principal       principal"
+    "base           base            base"
+    ;
+}
+.menu{
+    grid-area: menu;
+}
+.cuerpo{
+    grid-area: principal;
+}
+.base{
+    grid-area: base;
+}

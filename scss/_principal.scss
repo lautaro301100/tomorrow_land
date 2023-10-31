@@ -9,11 +9,19 @@
         height: 60%;
     }
     .img{
-        width: 80%;
-        height: 80%;
+        @include ancho-alto;
     }
     .informacion{
         align-content:center;
         font-size: 10em;
+    }
+    h5{
+        @include textos;
+
+    }
+    .logo-nos-img{
+        max-width: 20%;
+        max-height: 20%;
+        
     }
 }

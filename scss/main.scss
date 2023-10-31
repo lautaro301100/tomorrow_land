@@ -1,11 +1,14 @@
 //variables
 
 @import './variables';
-
+@import './mixin';
+@import './layout';
 //componentes
-
+@import './body';
 @import './menu';
 @import './principal';
-@import './pie';
+@import './base';
+
 
 //media queris
+@import './mq'

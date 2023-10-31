@@ -1,0 +1,9 @@
+@mixin ancho-alto{
+    width: 80%;
+    height: 80%; 
+}
+@mixin textos{
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em; 
+}
