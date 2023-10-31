@@ -1,0 +1,24 @@
+.base{
+    .pie{
+        background-color: $violet;
+        height: 4em;
+        text-align: center;
+        color: $white
+    } 
+    .logos-redes{
+        display: flex;
+        text-align-last: center;
+        width: 150px;
+    }
+    .fa-brands{
+        font-size: 2rem;
+    }
+    .fa-regular{
+        font-size: 2rem;
+    }
+    .copyright{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+}
